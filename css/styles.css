@@ -1,0 +1,107 @@
+body {
+	margin:0;
+	padding:0;
+	color: black;
+	height:100%
+}
+
+.bg {
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#home {
+	/* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); */
+	background-image: url("images/cloudy-forest.jpg");
+
+}
+
+#about {
+	/* background-image: url("https://images.unsplash.com/photo-1504554907512-fff129be2012?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTd0d34"); */
+	background-image: url("images/dusk.jpg")
+
+
+}
+
+#portfolio {
+	/* background-image: url("https://best-wallpaper.net/wallpaper/1920x1200/1210/Dusk-landscape-fog-forest_1920x1200.jpg"); */
+	background-image: url("images/forest-fog.jpg");
+}
+
+#contact {
+	background-image: url("https://images.unsplash.com/photo-1519894877873-978b7d957c3d?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=fdc84ef44309c3f7e69c120659441916");
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.wrapper {
+	height: 100%;
+	display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+}
+
+#portfolio .wrapper {
+}
+
+.box {
+	background: rgb(133,133,133,0.4);
+	max-width: 70%;
+	max-height: 100%;
+	border:0.2em solid black;
+	padding: 10%;
+	border-radius: 5%;
+	margin:0;
+}
+
+.portfolio-box {
+	border :none;
+	width:100%;
+	height: 100%;
+	margin:0;
+	padding:90px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.window {
+	border: 1.0em solid black;
+	border-radius: 5%;
+	background: #dcdbd7;
+	margin: 5px 10px;
+	padding: 0;
+	position:relative;
+}
+
+#portfolio .box {
+	/* width: 50%; */
+}
+
+#portfolio p {
+	font-size; 90px;
+	margin: auto;
+	padding: auto;
+}
+
+hr {
+	border-color:black;
+	background-color: black;
+}
+
+.item1 {
+	width: 40%;
+}
+
+#portfolio img {
+	width: 150px ;
+	height: 150px;
+	margin: 0;
+}
