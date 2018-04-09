@@ -1,4 +1,6 @@
 body {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 16px;
 	margin:0;
 	padding:0;
 	color: black;
@@ -43,11 +45,7 @@ body {
 	display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         text-align: center;
-}
-
-#portfolio .wrapper {
 }
 
 .box {
@@ -60,35 +58,8 @@ body {
 	margin:0;
 }
 
-.portfolio-box {
-	border :none;
-	width:100%;
-	height: 100%;
-	margin:0;
-	padding:90px 0px;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-}
-
-.window {
-	border: 1.0em solid black;
-	border-radius: 5%;
-	background: #dcdbd7;
-	margin: 5px 10px;
-	padding: 0;
-	position:relative;
-}
-
-#portfolio .box {
-	/* width: 50%; */
-}
-
 #portfolio p {
-	font-size; 90px;
-	margin: auto;
-	padding: auto;
+	text-align: center;
 }
 
 hr {
@@ -101,7 +72,74 @@ hr {
 }
 
 #portfolio img {
-	width: 150px ;
-	height: 150px;
-	margin: 0;
+	width: 250px ;
+	height: 200px;
+	border:black;
+}
+
+ #portfolio a:visited{
+	 text-decoration: none;
+	 color: black;
+ }
+
+ #portfolio a:active{
+	 text-decoration: none;
+	 color: black;
+ }
+
+ #portfolio a:hover{
+	 text-decoration: none;
+	 color: black;
+ }
+
+ #portfolio a:link{
+	 text-decoration: none;
+	 color: black;
+ }
+
+  #background-container { 
+    display:table;
+    margin-top: 15%;
+    border-collapse:collapse;
+    box-sizing:border-box;
+     /**/
+    /* background: url(images/grey-backdrop.jpg) no-repeat center center; */
+    background-color: rgb(133,133,133,0.4);
+    background-size: cover;
+     /* Vendor specific hacks */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.blocks {
+    display:table-row;
+}
+
+.block {
+    display:table-cell;
+    height:100px;
+    border:0.2em solid black;
+    border-radius: 10%;
+}
+
+.inner-block {
+	margin: 20px;
+}
+
+.about-header {
+	position: absolute;
+	background: rgb(133,133,133,0.4);
+	border:0.2em solid black;
+	padding: 2%;
+	left: 0;
+	right: 0;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.about-header h1 {
+	text-align: center;
 }
