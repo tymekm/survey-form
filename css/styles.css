@@ -1,11 +1,31 @@
 body {
 	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 16px;
+	font-size: 12px;
 	margin:0;
 	padding:0;
 	color: black;
 	height:100%
 }
+
+ a:visited{
+	 text-decoration: none;
+	 color: black;
+ }
+
+ a:active{
+	 text-decoration: none;
+	 color: black;
+ }
+
+ a:hover{
+	 text-decoration: none;
+	 color: #fff;
+ }
+
+a:link{
+	 text-decoration: none;
+	 color: black;
+ }
 
 .bg {
 	height: 100%;
@@ -15,29 +35,47 @@ body {
 }
 
 #home {
-	/* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); */
 	background-image: url("images/cloudy-forest.jpg");
 
 }
 
 #about {
-	/* background-image: url("https://images.unsplash.com/photo-1504554907512-fff129be2012?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTd0d34"); */
 	background-image: url("images/dusk.jpg")
 
 
 }
 
 #portfolio {
-	/* background-image: url("https://best-wallpaper.net/wallpaper/1920x1200/1210/Dusk-landscape-fog-forest_1920x1200.jpg"); */
 	background-image: url("images/forest-fog.jpg");
 }
 
 #contact {
-	background-image: url("https://images.unsplash.com/photo-1519894877873-978b7d957c3d?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=fdc84ef44309c3f7e69c120659441916");
+	background-image: url("images/trees-clouds.jpg");
 }
 
 .navbar {
-	margin-bottom: 0px;
+	background: rgb(133,133,133,1);
+	border-bottom: 0.2em solid black;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	line-height; 100px;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 0;
+}
+
+.navbar li {
+	display: inline;
+	margin: auto;
+}
+
+.navbar a {
+	font-size: 18px;
+	padding-right: 20px;
 }
 
 .wrapper {
@@ -53,9 +91,19 @@ body {
 	max-width: 70%;
 	max-height: 100%;
 	border:0.2em solid black;
-	padding: 10%;
+	padding: 6%;
 	border-radius: 5%;
 	margin:0;
+}
+
+#about p {
+	font-size: 16px;
+}
+
+.icon {
+	width: 70px;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 
 #portfolio p {
@@ -72,74 +120,84 @@ hr {
 }
 
 #portfolio img {
-	width: 250px ;
-	height: 200px;
+	width: 200px ;
+	height: 150px;
 	border:black;
 }
 
- #portfolio a:visited{
-	 text-decoration: none;
-	 color: black;
- }
-
- #portfolio a:active{
-	 text-decoration: none;
-	 color: black;
- }
-
- #portfolio a:hover{
-	 text-decoration: none;
-	 color: black;
- }
-
- #portfolio a:link{
-	 text-decoration: none;
-	 color: black;
- }
-
-  #background-container { 
-    display:table;
-    margin-top: 15%;
-    border-collapse:collapse;
-    box-sizing:border-box;
-     /**/
-    /* background: url(images/grey-backdrop.jpg) no-repeat center center; */
-    background-color: rgb(133,133,133,0.4);
-    background-size: cover;
-     /* Vendor specific hacks */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-.blocks {
-    display:table-row;
+#portfolio .box {
+	border: none;
+	background: none;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 .block {
     display:table-cell;
-    height:100px;
+    margin: 20px ;
+    background-color: rgb(133,133,133,0.4);
     border:0.2em solid black;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .inner-block {
 	margin: 20px;
 }
 
-.about-header {
-	position: absolute;
-	background: rgb(133,133,133,0.4);
-	border:0.2em solid black;
-	padding: 2%;
-	left: 0;
-	right: 0;
-	margin-top: 5%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
+.blank {
+	padding: 2.5%;
 }
 
-.about-header h1 {
+.portfolio-header {
+	background: rgb(133,133,133,0.4);
+	border:0.2em solid black;
+ 	border-radius: 5%;
+	margin-bottom: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
+}
+
+/*Contact style*/
+
+#contact .box {
+	display: flex;
+	justify-content: center;
+}
+
+#contact .wrapper {
+	display: flex;
+	text-align: left;
+}
+
+#contact h2 {
+	text-align: center;
+}
+
+.links ul {
+	list-style: none;
+}
+
+.links li {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.links img {
+	width: 30px;
+}
+
+.links  button {
+	margin: 20px;
+}
+
+
+.links a {
+	display: block;
 }
