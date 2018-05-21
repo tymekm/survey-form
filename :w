@@ -64,7 +64,14 @@
 			</div>
   <div id="thumbnail-table">
     <div class="blocks">
-			
+        <div class="block">
+					<div class="inner-block">
+					<a target="_blank" href="https://tymekm.github.io/portfolio.github.io/">
+          <img id="image1" src="css/images/portfolio-screen.png" alt="Poject preview">
+      <p>My Portfolio page</p>
+					</a>
+</div>
+				</div>
         <div class="block">
 					<div class="inner-block">
 						<a target="_blank" href="https://tymekm.github.io/tribute-page/">
@@ -75,57 +82,44 @@
 </div>
         <div class="block">
 					<div class="inner-block">
-						<a target="_blank" href="http://tymekm.github.io/quotegen">
+						<a href="http://tymekm.github.io/quotegen">
           <img id="image3" src="css/images/quotegen.png" alt="Poject preview">
       <p>Random quote generator</p>
 </div></a>
 </div>
         <div class="block">
 					<div class="inner-block">
-						<a target="_blank" href="http://tymekm.github.io/weatherapp">
-          <img id="image8" src="css/images/weatherapp.png" alt="Poject preview">
-      <p>Weather app</p>
-					</div></a>
-</div>
-        <div class="block">
-					<div class="inner-block">
-					<a target="_blank" href="">
           <img id="image4" src="css/images/html-build.png" alt="Poject preview">
       <p>porject4</p>
-					</div></a>
+</div>
 </div>
     </div>
 
     <div class="blocks">
         <div class="block">
 					<div class="inner-block">
-					<a target="_blank" href="">
           <img id="image5" src="css/images/html-build.png" alt="Poject preview">
       <p>porject5</p>
-					</div></a>
+</div>
 </div>
         <div class="block">
 					<div class="inner-block">
-					<a target="_blank" href="">
           <img id="image6" src="css/images/html-build.png" alt="Poject preview">
       <p>porject6</p>
-					</div></a>
+</div>
 </div>
        <div class="block">
 					<div class="inner-block">
-					<a target="_blank" href="">
           <img id="image7" src="css/images/html-build.png" alt="Poject preview">
       <p>porject7</p>
-					</div></a>
+</div>
 </div>
         <div class="block">
 					<div class="inner-block">
-					<a target="_blank" href="">
-          <img id="image1" src="css/images/html-build.png" alt="Poject preview">
-      <p>project8</p>
-					</a>
+          <img id="image8" src="css/images/html-build.png" alt="Poject preview">
+      <p>porject8</p>
 </div>
-				</div>
+</div>
 		</div>
 
     </div>
@@ -158,26 +152,24 @@
 							</button>
 							</a>
 							</br>
-							<a target="_blank" href="https://twitter.com/">
+							<a href="https://twitter.com/">
 							<button>
-							<li id="link3" class="link">
+							<li target="_blank" id="link3" class="link">
 								<img src="css/images/twitter.png" alt="">Twitter
 							</li>
 							</button>
 							</a>
 							</br>
-							<a target="_blank" href="mailto:tymek.m@hotmail.com">
+							<a href="mailto:tymek.m@hotmail.com">
 							<button>
-							<li id="link4" class="link">
+							<li target="_blank" id="link4" class="link">
 								<img src="css/images/email.png" alt="">Tymek.m@hotmail.com
 							</li>
 							</button>
 							</a>
 							</br>
 						</ul>
-						<div id="footer">
-						<p>See the source code at <a target="_blank" id="footer-link" href="https://github.com/tymekm/portfolio/tree/gh-pages">Github</a></p>
-						</div>
+						<p id="footer">See the source code at <a id="footer-link" href="https://github.com/tymekm/portfolio/tree/gh-pages">Github</a></p>
 					</div>
 				</div>
 			</div>
